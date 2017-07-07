@@ -17,4 +17,4 @@ A development build has been created and can be viewed at build/index.js. The de
 ````bash
 $ npm run prod
 ````
-Under build/index.js now the production build can be found. The output is completely minified and a lot smaller as a huge portion of the original code has been removed.
+Under build/index.js now the production build can be found. The output is completely minified and a lot smaller as a huge portion of the original code has been removed. The webpack setup with UglifyJS is able to determine which part of the code is needed and which part of the code can be savely thrown away.
