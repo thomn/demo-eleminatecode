@@ -1,6 +1,3 @@
-'use strict'
-
-const path = require('path')
 const webpack = require('webpack')
 
 process.env.NODE_ENV = 'prod'
@@ -8,7 +5,7 @@ process.env.NODE_ENV = 'prod'
 module.exports = {
     entry: './src/index.js',
     output: {
-        path: path.join(__dirname, './build'),
+        path: __dirname + '/build',
         filename: 'indexProd.js'
     },
     plugins: [
