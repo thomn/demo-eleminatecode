@@ -2,6 +2,8 @@
 
 This is a simple demo project that shows how dead code elemination and conditional compilation works in a webpack setup.
 
+This repository holds the code examples that are used in the Blog post [Conditional compilation and dead code elimination with webpack](https://www.thomann.io/blog/post/webpack_conditional_compilation_dead_code_elimination) on [thomann.io](https://www.thomann.io).
+
 Clone this repository, and install the dependencies (assuming you have already installed node and npm):
 ````bash
 $ git clone git@github.com:thomn/demo-eleminatecode.git && npm i
